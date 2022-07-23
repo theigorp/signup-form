@@ -95,3 +95,34 @@ form, .content, .login, main {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
+.form-text-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form-text-content p {
+    font-size: 15px;
+    color: rgb(148, 144, 144);
+}
+
+.input-fields {
+    display: flex;
+    gap: 20px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
