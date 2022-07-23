@@ -144,6 +144,10 @@ input:not(:placeholder-shown) {
     border-bottom: 2px solid #00a5d7;
 }
 
+input:hover, label:hover {
+    cursor:text;
+}
+
 input:focus + label, input:not(:placeholder-shown) + label {
     transform: translateY(-13px);
     font-size: 10px;
