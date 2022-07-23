@@ -30,4 +30,13 @@ a {
 body {
     /* font-family: 'Rampart One', cursive; */
     font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.cover-image {
+    height: 100vh;
+    width: 35%;
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
