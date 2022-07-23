@@ -9,7 +9,7 @@
 <body>
     <div class="cover-image">
         <div class="title">
-            <img src="cover.jpg" alt="viking">
+            <img src="cover.jpg" alt="viking" width="500" height="100%">
             <h1>READ</h1>
         </div>
     </div>
@@ -28,6 +28,7 @@
                 <label for="email">EMAIL<span class="asterisk">*</span></label>
                 <input type="email" name="email" id="email" required>
                 <label for="password">PASSWORD<span class="asterisk">*</span></label>
+                <input type="password" name="password" id="password" required class="error">
             </div>
             <div class="right">
                 <label for="lastName">LAST NAME</label>
@@ -35,10 +36,15 @@
                 <label for="telnum">PHONE NUMBER</label>
                 <input type="tel" name="telnum" id="telnum">
                 <label for="passConfirm">CONFIRM PASSWORD<span class="asterisk">*</span></label>
-                <input type="password" name="passConfirm" id="passConfirm" required>
+                <input type="password" name="passConfirm" id="passConfirm" required class="error">
             </div>
-
+            
+            <button type="submit">Create Account</button>
         </form>
+
+        <div class="login">
+            <p>Already have an accont? <a href="#">Log in</a></p>
+        </div>
     </main>
 </body>
 </html>
