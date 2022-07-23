@@ -174,3 +174,8 @@ input:focus + label, input:not(:placeholder-shown) + label {
 .login {
     padding-left: 50px;
 }
+
+.login a {
+    font-weight: 600;
+    color: #00a5d7;
+}
