@@ -127,7 +127,7 @@ form, .content, .login, main {
 
 input {
     width: 400px;
-    height: 20px;
+    height: 25px;
     font-size: 16px;
     border: 0;
     border-bottom: 2px solid rgb(160, 160, 160);

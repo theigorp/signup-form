@@ -8,4 +8,5 @@ const confirmPassword = document.querySelector('#passConfirm');
 if(password == confirmPassword) console.log('ss');
 else console.log('error');
 
-if(testEmail.test(email.textContent)==true) email.style.borderBottom = '2px solid red';
+if(testEmail.test(email.textContent)=="") return
+else email.style.borderBottom = '2px solid red';
