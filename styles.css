@@ -25,10 +25,14 @@ a {
     text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+    font-family: FancyFont;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
 
 body {
-    /* font-family: 'Rampart One', cursive; */
     font-family: 'Roboto', sans-serif;
     display: flex;
 }
@@ -39,4 +43,26 @@ body {
     background-image: url(cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.title {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#viking {
+    width: 120px;
+    height: 150px;
+}
+
+h1 {
+    font-family: FancyFont;
+    font-size: 100px;
+    color: white;
 }
