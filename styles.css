@@ -39,7 +39,7 @@ body {
 
 .cover-image {
     height: 100vh;
-    width: 35%;
+    width: 45%;
     background-image: url(pingi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ body {
     background-color: rgb(0, 0, 0, 0.5);
     padding: 20px;
     position: relative;
-    top: 70px;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,3 +66,32 @@ h1 {
     font-size: 100px;
     color: white;
 }
+
+form, .content, .login, main {
+    background-color: #f9fafc;
+}
+
+.login {
+    height: 100%;
+}
+
+.create-acc {
+    padding: 50px;
+}
+
+.content {
+    padding: 200px 50px 80px 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#spaced {
+    margin-top: 30px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+

@@ -17,30 +17,33 @@
     <main>
         <div class="content">
             <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h3>
-            <h3>You <i>know</i> you want to.</h3>
+            <h3 id="spaced">You <i>know</i> you want to.</h3>
         </div>
         <form action="">
-            <h2>Let's do this!</h2>
-            <p>Fields marked with an asterisk (*) are required</p>
-
-            <div class="left">
-                <label for="firstName">FIRST NAME</label>
-                <input type="text" name="firstName" id="firstName">
-                <label for="email">EMAIL<span class="asterisk">*</span></label>
-                <input type="email" name="email" id="email" required>
-                <label for="password">PASSWORD<span class="asterisk">*</span></label>
-                <input type="password" name="password" id="password" required class="error">
-            </div>
-            <div class="right">
-                <label for="lastName">LAST NAME</label>
-                <input type="text" name="lastName" id="lastName">
-                <label for="telnum">PHONE NUMBER</label>
-                <input type="tel" name="telnum" id="telnum">
-                <label for="passConfirm">CONFIRM PASSWORD<span class="asterisk">*</span></label>
-                <input type="password" name="passConfirm" id="passConfirm" required class="error">
+            <div class="form-container">
+                <h2>Let's do this!</h2>
+                <p>Fields marked with an asterisk (*) are required</p>
+                <div class="left">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" name="firstName" id="firstName">
+                    <label for="email">EMAIL<span class="asterisk">*</span></label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">PASSWORD<span class="asterisk">*</span></label>
+                    <input type="password" name="password" id="password" required class="error">
+                </div>
+                <div class="right">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" name="lastName" id="lastName">
+                    <label for="telnum">PHONE NUMBER</label>
+                    <input type="tel" name="telnum" id="telnum">
+                    <label for="passConfirm">CONFIRM PASSWORD<span class="asterisk">*</span></label>
+                    <input type="password" name="passConfirm" id="passConfirm" required class="error">
+                </div>
             </div>
             
-            <button type="submit">Create Account</button>
+            <div class="create-acc">
+                <button type="submit">Create Account</button>
+            </div>
         </form>
 
         <div class="login">
