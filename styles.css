@@ -187,3 +187,30 @@ input:focus + label, input:not(:placeholder-shown) + label {
     font-weight: 600;
     color: #00a5d7;
 }
+
+.error-message {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 20px;
+    margin-top: -10px;
+    display: none;
+}
+
+.error-message h4 {
+    font-weight: 700;
+}
+
+.error-message p {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
+
+/* <i class="fa-solid fa-check"></i> */
