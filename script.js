@@ -51,14 +51,13 @@ function validatePassword(condition, element)
     }
 }
 
+let pswMatch;
+
 function matchPasswords()
 {
     let psw = document.querySelector('#password').value;
     let confPsw = document.querySelector('#passConfirm').value;
     let reportError = document.querySelector('.confirm-password-error');
-
-    // console.log(psw + confPsw);
-
     if(psw.length != 0)
     {
         if(psw == confPsw)
@@ -66,20 +65,20 @@ function matchPasswords()
             reportError.style.display = 'block';
             reportError.textContent = 'Passwords match!';
             reportError.style.backgroundColor = 'rgb(37, 150, 37)';
+            pswMatch = true;
         }
         else if(confPsw == '')
         {
             reportError.style.display = 'none';
+            pswMatch = false;
         }
         else if(psw != confPsw)
         {
             reportError.style.display = 'block';
             reportError.textContent = `Passwords don't match!`
             reportError.style.backgroundColor = 'rgb(240, 63, 63)';
+            pswMatch = false;
         }
     }
     else console.log('error')
 }
-
-//js see if passwords are same
-//if email and number input is good border blue
