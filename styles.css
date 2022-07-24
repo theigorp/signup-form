@@ -144,6 +144,10 @@ input:not(:placeholder-shown) {
     border-bottom: 2px solid #00a5d7;
 }
 
+#email:not(:placeholder-shown) {
+    border-bottom: 2px solid rgb(160, 160, 160);
+}
+
 input:hover, label:hover {
     cursor:text;
 }

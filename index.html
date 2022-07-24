@@ -32,12 +32,12 @@
                             <input type="text" name="firstName" id="firstName" placeholder=" ">
                             <label for="firstName">FIRST NAME</label>
                         </div>
-                        <div class="input-field">
-                            <input type="email" name="email" id="email" required placeholder=" ">
+                        <div class="input-field email-input">
+                            <input type="email" name="email" id="email" required onblur="this.style.borderColor= this.checkValidity() ? '#00a5d7' : 'red'" placeholder=" " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                             <label for="email">EMAIL <span class="asterisk">*</span></label>
                         </div>
                         <div class="input-field">
-                            <input type="password" name="password" id="password" required class="error" placeholder=" ">
+                            <input type="password" name="password" id="password" required class="error" placeholder=" " title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
                             <label for="password">PASSWORD <span class="asterisk">*</span></label>
                         </div>
                     </div>
