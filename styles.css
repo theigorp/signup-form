@@ -196,6 +196,18 @@ input:focus + label, input:not(:placeholder-shown) + label {
     display: none;
 }
 
+.confirm-password-error {
+    color: white;
+    padding: 5px;
+    margin-top: -20px;
+    display: none;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .error-message h4 {
     font-weight: 700;
 }

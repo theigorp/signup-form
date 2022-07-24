@@ -55,12 +55,15 @@
                             <label for="lastName">LAST NAME</label>
                         </div>
                         <div class="input-field">
-                            <input type="tel" name="telnum" id="telnum" placeholder=" " inputmode="numeric" pattern="[0-9]">
+                            <input type="tel" name="telnum" id="telnum" placeholder=" " inputmode="numeric">
                             <label for="telnum">PHONE NUMBER</label>
                         </div>
-                        <div class="input-field">
-                            <input type="password" name="passConfirm" id="passConfirm" required class="error" placeholder=" ">
+                        <div class="input-field confirm-pass-input">
+                            <input type="password" name="passConfirm" id="passConfirm" required class="error" placeholder=" " onkeyup="matchPasswords()">
                             <label for="passConfirm">CONFIRM PASSWORD <span class="asterisk">*</span></label>
+                        </div>
+                        <div class="confirm-password-error">
+                            
                         </div>
                     </div>
                 </div>
